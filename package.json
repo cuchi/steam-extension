@@ -1,0 +1,15 @@
+{
+  "name": "steam-extension",
+  "version": "0.0.1",
+  "description": "Encontre os melhores descontos de jogos e aplicativos na loja da Steam!",
+  "license": "MIT",
+  "main": "index.js",
+  "category": "retail",
+  "rung": {
+    "title": "Descontos na Steam",
+    "preview": "Hello, Trixie!"
+  },
+  "dependencies": {
+    "rung-sdk": "^1.0.6"
+  }
+}
