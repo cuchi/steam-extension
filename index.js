@@ -4,7 +4,9 @@ const agent = require('superagent');
 const Bluebird = require('bluebird');
 const promisifyAgent = require('superagent-promise');
 const {
-    F, T, allPass, always, apply, both, complement, concat, divide, filter, has, flip, gte, isNil, lte, map, mergeAll, multiply, path, pipe, prop, props, subtract, tryCatch
+    F, T, allPass, always, apply, both, complement, concat, divide, filter,
+    flip, gte, has, isNil, lte, map, mergeAll, multiply, path, pipe, prop,
+    props, subtract, tryCatch
 } = require('ramda');
 
 const request = promisifyAgent(agent, Bluebird);
