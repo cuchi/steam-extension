@@ -10,6 +10,10 @@
     "preview": "Hello, Trixie!"
   },
   "dependencies": {
-    "rung-sdk": "^1.0.6"
+    "bluebird": "^3.5.0",
+    "ramda": "^0.23.0",
+    "rung-sdk": "^1.0.6",
+    "superagent": "^3.5.2",
+    "superagent-promise": "^1.1.0"
   }
 }
